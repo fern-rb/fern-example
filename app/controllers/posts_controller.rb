@@ -1,5 +1,8 @@
 class PostsController < ApplicationController
   get :index do
+  	doc %(Get a summary of an individual Automation workflow’s settings and
+content. The trigger_settings object returns information for the first email in
+the workflow.)
     params do
       param :page, :integer, min: 10, max: 20
       param :foo, :boolean

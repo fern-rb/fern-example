@@ -27,6 +27,7 @@ gem 'puma', '~> 3.7'
 
 gem 'fern-api', path: '~/src/fern/fern-api'
 gem 'fern-parameters', path: '~/src/fern/fern-parameters'
+gem 'fern-documentation', path: '~/src/fern/fern-documentation'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
